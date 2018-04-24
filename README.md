@@ -6,7 +6,7 @@
 ## Project
  **截图：**
  ![index](https://raw.githubusercontent.com/LeeeYudE/SlideUnlockView/master/screenshot/1.png)
- ![recipe1](hhttps://raw.githubusercontent.com/LeeeYudE/SlideUnlockView/master/screenshot/1.gif)
+ ![recipe1](https://raw.githubusercontent.com/LeeeYudE/SlideUnlockView/master/screenshot/1.gif)
 
 
 
