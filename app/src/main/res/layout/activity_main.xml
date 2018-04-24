@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.charcolee.slideunlockview.MainActivity">
+
+    <com.demo.charcolee.slideunlockview.view.SlideUnlockView
+        android:id="@+id/slideView"
+        android:layout_margin="10dp"
+        app:backgroundColor="@color/background_color"
+        app:icon="@drawable/icon_slide"
+        app:content=">>正常滑动结束接单"
+        app:textColor="@color/text_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.demo.charcolee.slideunlockview.view.SlideUnlockView
+        android:layout_margin="10dp"
+        app:backgroundColor="@color/background_color"
+        app:icon="@drawable/ic_launcher_round"
+        app:content=">>不可滑动"
+        app:textColor="@color/colorAccent"
+        app:unSlide="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

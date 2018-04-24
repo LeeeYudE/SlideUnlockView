@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="SlideUnlockView">
+        <attr name="content" format="string|reference"/>
+        <attr name="backgroundColor" format="color|reference"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="icon" format="reference"/>
+        <attr name="unSlide" format="boolean" />
+    </declare-styleable>
+    
+</resources>
