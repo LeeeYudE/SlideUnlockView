@@ -62,6 +62,9 @@ public class SlideUnlockView extends View {
     private void initAttr(AttributeSet attrs){
         TypedArray ta = getContext().obtainStyledAttributes(attrs, R.styleable.SlideUnlockView);
         content = ta.getString(R.styleable.SlideUnlockView_content);
+        if (content==null){
+            content = "           ";
+        }
         mBackgroudColor = ta.getColor(R.styleable.SlideUnlockView_backgroundColor,getResources().getColor(R.color.background_color));
         mTextColor = ta.getColor(R.styleable.SlideUnlockView_textColor,getResources().getColor(R.color.text_color));
         mIconId = ta.getResourceId(R.styleable.SlideUnlockView_icon, R.drawable.icon_slide);
